@@ -1,0 +1,1 @@
+export { getMerchants } from './getMerchants'

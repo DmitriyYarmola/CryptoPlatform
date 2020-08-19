@@ -1,0 +1,41 @@
+{
+    "ordersTableData": [
+        {
+            "key": "1",
+            "number": "1",
+            "description": "Server hardware purchase",
+            "quantity": 1,
+            "unitcost": 20,
+            "total": 20
+        },
+        {
+            "key": "2",
+            "number": "2",
+            "description": "Office furniture purchase",
+            "quantity": 3,
+            "unitcost": 10,
+            "total": 30
+        },
+        {
+            "key": "3",
+            "number": "3",
+            "description": "Company Anual Dinner Catering",
+            "quantity": 2,
+            "unitcost": 15,
+            "total": 30
+        },
+        {
+            "key": "4",
+            "number": "4",
+            "description": "Payment for Jan 2016",
+            "quantity": 2,
+            "unitcost": 10,
+            "total": 20
+        }
+    ],
+    "invoicePrices": {
+        "invoiceAmount": "$5,700.00",
+        "invoiceVAT": "$57.00",
+        "invoiceTotal": "$5,757.00"
+    }
+}

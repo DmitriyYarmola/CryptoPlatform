@@ -1,0 +1,40 @@
+.menu-filter
+    width: max-content!important
+    display: grid!important
+    grid-template-columns: 0px 1fr 1fr 1fr 1fr 1fr 0px!important
+    transform: translateX(-100%)
+    &.ant-menu
+        background: none
+        .ant-menu-submenu
+            background: white
+            height: max-content
+            width: 274px
+
+    &.openFilters
+        transform: translateX(0)
+
+.ant-menu
+    transition: .3s linear!important
+
+.ant-picker
+    height: 48px!important
+    border: 0!important
+
+.ant-checkbox + span
+    font-size: 15px
+
+.wrapped
+    .subMenu-crypto
+        .ant-radio-group
+            display: grid
+            grid-template-columns: 1fr 1fr 1fr
+            .ant-radio-wrapper
+                padding: 10px
+
+.wrapped
+    .subMenu-transactions
+        .ant-radio-group
+            display: grid
+            grid-template-columns: 1fr 1fr
+            .ant-radio-wrapper
+                padding: 10px
